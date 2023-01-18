@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Student Manager Application:
-### This is a simple java application to manage student by implementing some very basic tasks like:
+## This is a simple java application to manage student by implementing some very basic tasks like:
     In this user need to provide the options that 
     What task they would like to perform, and based on their choice the following tasks will get implemented.
 
@@ -16,4 +15,4 @@
         5. Exit 
                 To Exit the execution.
 
-#### Code  => [Click me]()
+#### Code  => [Click me](https://github.com/PuShPaK-kUmAr/Student_Manager/tree/master/src)
