@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Manager Application:
 ### This is a simple java application to manage student by implementing some very basic tasks like:
     In this user need to provide the options that 
