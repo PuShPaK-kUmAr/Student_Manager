@@ -1,18 +1,30 @@
-# Student Manager Application:
-## This is a simple java application to manage student by implementing some very basic tasks like:
-    In this user need to provide the options that 
-    What task they would like to perform, and based on their choice the following tasks will get implemented.
+# Student Manager
 
+A simple Java project that manages a list of students using interfaces and separate files for the main method, interface, and student class.
 
-        1. Add Student
-                To Add Student User need to provide student name, email, age and phone number of student.
-        2. Delete Student
-                To Delete Student User need to provide the email of Student whose details need to be Deleted from the list.
-        3. Update Student
-                To Update Student User need to provide the email of Student whose details need to be Updated in the list.
-        4. Print Student List
-                This will print all the Students from the list.
-        5. Exit 
-                To Exit the execution.
+## Features
+- Add students to the list
+- Delete students from the list
+- Update student details in the list
+- Print list of students
 
-#### Code  => [Click me](https://github.com/PuShPaK-kUmAr/Student_Manager/tree/master/src)
+## Technologies
+- Java
+- Interface
+
+## How to use
+1. Clone the repository
+
+       git clone https://github.com/PuShPaK-kUmAr/Student_Manager.git 
+2. Open the project in your preferred Java IDE
+3. Run the Main class to start the program
+4. Follow the prompts to add, delete, update and print students
+
+## Files
+- `Student.java`: The class that defines the Student object, with fields for name, email, age, and phone number.
+- `StudentManager.java`: The class that implements the StudentManagerInterface interface and implements the methods to add, delete, update and print students.
+- `StudentManagerInterface.java`: The interface that defines the methods for the StudentManager class to implement.
+- `Main.java` : The class that runs the program and creates the StudentManager object.
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
