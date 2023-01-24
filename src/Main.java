@@ -29,7 +29,7 @@ public class Main {
                 }
             }catch (Exception e) {
                 System.out.println("Invalid input. Please enter a number between 1 and 5.");
-                userOption.nextLine();  // Clear the input buffer to prevent infinite loop
+                userOption.nextLine();                    // Clear the input buffer to prevent infinite loop
             }
 
         }
