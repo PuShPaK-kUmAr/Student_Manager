@@ -1,4 +1,4 @@
-public interface AbstractHelperInterface {
+public interface AbstractHelper {
     void add();
     void delete();
     void update();

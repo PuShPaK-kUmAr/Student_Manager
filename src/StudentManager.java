@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-public class StudentManager implements AbstractHelperInterface {
+public class StudentManager implements AbstractHelper {
     private static final List<Student> studentList = new ArrayList<>();
     private static final Scanner inputStudentData = new Scanner(System.in);
 
