@@ -17,15 +17,21 @@ public class Main {
                             5. Exit
                     """
             );
-            int task = userOption.nextInt();
-            switch (task) {                             // implemented pattern match switch or enhanced switch introduced in java 14
-                case 1 -> studentManager.addStudent();
-                case 2 -> studentManager.deleteStudent();
-                case 3 -> studentManager.updateStudent();
-                case 4 -> studentManager.printStudents();
-                case 5 -> System.exit(0);
-                default -> System.out.println("Invalid option. Please try again.");
+            try{
+                int task = userOption.nextInt();
+                switch (task) {                             // implemented pattern match switch or enhanced switch introduced in java 14
+                    case 1 -> studentManager.add();
+                    case 2 -> studentManager.delete();
+                    case 3 -> studentManager.update();
+                    case 4 -> studentManager.print();
+                    case 5 -> System.exit(0);
+                    default -> System.out.println("Invalid option. Please try again.");
+                }
+            }catch (Exception e) {
+                System.out.println("Invalid input. Please enter a number between 1 and 5.");
+                userOption.nextLine();  // Clear the input buffer to prevent infinite loop
             }
+
         }
     }
 }
