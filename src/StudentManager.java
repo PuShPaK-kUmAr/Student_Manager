@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class StudentManager implements AbstractHelperInterface {
-
     private static final List<Student> studentList = new ArrayList<>();
     private static final Scanner inputStudentData = new Scanner(System.in);
 

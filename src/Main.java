@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
     private static final Scanner userOption = new Scanner(System.in);
-
     public static void main(String[] args) {
         StudentManager studentManager = new StudentManager();
         while (true) {
@@ -27,11 +25,10 @@ public class Main {
                     case 5 -> System.exit(0);
                     default -> System.out.println("Invalid option. Please try again.");
                 }
-            }catch (Exception e) {
+            }catch (Exception error) {
                 System.out.println("Invalid input. Please enter a number between 1 and 5.");
                 userOption.nextLine();                    // Clear the input buffer to prevent infinite loop
             }
-
         }
     }
 }
